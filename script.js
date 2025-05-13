@@ -199,6 +199,7 @@ async function displayRecommended(type) {
 
 // Swipper Thingies
 async function displaySwiperDetailsRecommended(type, path) {
+    await delay(1500);
     const { data } = await fetchData(path);
     console.log(data);
 
@@ -294,6 +295,7 @@ async function displayAllSwipers(type) {
     const heroLoading = document.querySelector(".hero-loading");
 
     if (type === "anime") {
+        await delay(1500);
         displaySwiper("anime", swiperURLS.topPopularAnime);
         displaySwiper("anime", swiperURLS.topPopularAnimeMovies);
         await delay(1500);
