@@ -26,6 +26,10 @@ body {
     /* z-index: 10; */
 }
 
+body.overflow-y {
+    overflow-y: hidden;
+}
+
 body::before {
     content: "";
     position: absolute;
@@ -540,6 +544,18 @@ a {
     .creators-pick {
         padding: 1rem;
         grid-template-columns: repeat(2, 1fr);
+
+        .card {
+            max-width: 280px;
+
+            .title {
+                display: none;
+            }
+
+            .headshot-img {
+                border-radius: 20px;
+            }
+        }
     }
 }
 @media (max-width: 500px) {

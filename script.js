@@ -342,9 +342,11 @@ function initSwiper() {
 function displayMenu() {
     const mobileMenuToggle = document.querySelector(".mobile-menu-icon");
     const mobileMenuItems = document.querySelector(".mobile-menu-items");
+    const body = document.getElementsByTagName("body")[0];
 
     mobileMenuToggle.addEventListener("click", () => {
         mobileMenuItems.classList.toggle("active");
+        body.classList.toggle("overflow-y");
     });
 }
 
