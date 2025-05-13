@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="script.js" defer></script>
+        <title>My Recommendations</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav container">
+                <div>
+                    <a href="">
+                        <h1 class="logo">TheAnimeDB</h1>
+                    </a>
+                </div>
+                <!-- menu Items -->
+                <div class="menu">
+                    <ul class="menu-list">
+                        <li><a href="/" class="nav-link">Anime</a></li>
+                        <li>
+                            <a href="/manga.html" class="nav-link">Manga</a>
+                        </li>
+                        <li>
+                            <a href="/my-recommendations.html" class="nav-link"
+                                >My Recommendations</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Mobile-menu -->
+
+                <div class="mobile-menu">
+                    <div class="mobile-menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="mobile-menu-items">
+                        <ul class="mobile-menu-list">
+                            <li><a href="/">Anime</a></li>
+                            <li><a href="./manga.html">Manga</a></li>
+                            <li>
+                                <a href="./my-recommendations.html"
+                                    >My Recommendations</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="my-recommendations container">
+            <div class="anime-recommendations">
+                <h2>My Anime Recommendations</h2>
+                <div id="my-anime" class="creators-pick"></div>
+            </div>
+            <div class="manga-recommendations">
+                <h2>My Manga Recommendations</h2>
+                <div id="my-manga" class="creators-pick"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container footer">
+                <div class="copyright">
+                    <h3>&copy; 2025 Georgios Sifakis All rights reserved.</h3>
+                    <h3>
+                        Created with
+                        <a href="https://jikan.moe/" target="_blank"
+                            >Jikan.API</a
+                        >
+                    </h3>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/gsifakis" target="_blank"
+                        ><i class="fa-brands fa-github fa-2xl"></i
+                    ></a>
+                    <a
+                        href="https://www.linkedin.com/in/george-sifakis/"
+                        target="_blank"
+                        ><i class="fa-brands fa-linkedin fa-2xl"></i
+                    ></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

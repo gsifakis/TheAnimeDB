@@ -1,0 +1,1243 @@
+{
+    "data": [
+        {
+            "mal_id": 12,
+            "url": "https://myanimelist.net/manga/12/Bleach",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/180031.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/180031t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/180031l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/180031.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/180031t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/180031l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Bleach"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "BLEACH"
+                },
+                {
+                    "type": "English",
+                    "title": "Bleach"
+                }
+            ],
+            "title": "Bleach",
+            "title_english": "Bleach",
+            "title_japanese": "BLEACH",
+            "title_synonyms": [],
+            "type": "Manga",
+            "chapters": 705,
+            "volumes": 74,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2001-08-07T00:00:00+00:00",
+                "to": "2016-08-22T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 7,
+                        "month": 8,
+                        "year": 2001
+                    },
+                    "to": {
+                        "day": 22,
+                        "month": 8,
+                        "year": 2016
+                    }
+                },
+                "string": "Aug 7, 2001 to Aug 22, 2016"
+            },
+            "score": 7.89,
+            "scored": 7.89,
+            "scored_by": 249381,
+            "rank": 1038,
+            "popularity": 15,
+            "members": 407208,
+            "favorites": 37283,
+            "synopsis": "For as long as he can remember, high school student Ichigo Kurosaki has been able to see the spirits of the dead, but that has not stopped him from leading an ordinary life. One day, Ichigo returns home to find an intruder in his room who introduces herself as Rukia Kuchiki, a Soul Reaper tasked with helping souls pass over. Suddenly, the two are jolted from their conversation when a Hollow—an evil spirit known for consuming souls—attacks. As Ichigo makes a brash attempt to stop the Hollow, Rukia steps in and shields him from a counterattack. Injured and unable to keep fighting, Rukia suggests a risky plan—transfer half of her Soul Reaper powers to Ichigo. He accepts and, to Rukia's surprise, ends up absorbing her powers entirely, allowing him to easily dispatch the Hollow.\n\nNow a Soul Reaper himself, Ichigo must take up Rukia's duties of exterminating Hollows and protecting spirits, both living and dead. Along with his friends Orihime Inoue and Yasutora Sado—who later discover spiritual abilities of their own—Ichigo soon learns that the consequences of becoming a Soul Reaper and dealing with the world of spirits are far greater than he ever imagined.\n\n[Written by MAL Rewrite]",
+            "background": "Bleach has sold over 130 million copies worldwide as of 2022, making it one of the top 20 best-selling manga series of all time; North American sales have also been significant with 1.7 million copies sold in the region. In 2005, the series won the 50th Shogakukan Manga Award in the shounen category. The series was published in English by VIZ Media under the Shonen Jump imprint from July 6, 2004, to October 2, 2018, and as omnibus volumes from June 7, 2011, to March 5, 2019; a hardcover collector's edition for volume one was released by VIZ Media on August 5, 2008, a box set of volumes 1-21 was released on September 16, 2008, as well as volumes 22-48 on July 7, 2015, and the final box set containing volumes 49-74 on November 6, 2018. It has also been published in Brazilian Portuguese by Panini Comics since July 2007, and in Spanish by Glénat since June 2006, publishing 51 volumes before the publisher went defunct; it was later republished by Panini Comics from February 2013 to November 2017. Many adaptations have also been made of Bleach, with four feature-length films, numerous video games, spin-off light novels, databooks, a live-action movie, and even a musical.",
+            "authors": [
+                {
+                    "mal_id": 1880,
+                    "type": "people",
+                    "name": "Kubo, Tite",
+                    "url": "https://myanimelist.net/people/1880/Tite_Kubo"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 83,
+                    "type": "manga",
+                    "name": "Shounen Jump (Weekly)",
+                    "url": "https://myanimelist.net/manga/magazine/83/Shounen_Jump_Weekly"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "manga",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/manga/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 46,
+                    "type": "manga",
+                    "name": "Award Winning",
+                    "url": "https://myanimelist.net/manga/genre/46/Award_Winning"
+                },
+                {
+                    "mal_id": 37,
+                    "type": "manga",
+                    "name": "Supernatural",
+                    "url": "https://myanimelist.net/manga/genre/37/Supernatural"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "manga",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/manga/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 24,
+            "url": "https://myanimelist.net/manga/24/DGray-man",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/240470.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/240470t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/240470l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/240470.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/240470t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/240470l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "D.Gray-man"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "D.Grey-man"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "D. Grayman"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "D. Gray-man"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "D.Gray-man"
+                },
+                {
+                    "type": "English",
+                    "title": "D.Gray-man"
+                },
+                {
+                    "type": "Spanish",
+                    "title": "D.Gray-Man"
+                },
+                {
+                    "type": "French",
+                    "title": "D.Gray-Man"
+                }
+            ],
+            "title": "D.Gray-man",
+            "title_english": "D.Gray-man",
+            "title_japanese": "D.Gray-man",
+            "title_synonyms": ["D.Grey-man", "D. Grayman", "D. Gray-man"],
+            "type": "Manga",
+            "chapters": null,
+            "volumes": null,
+            "status": "Publishing",
+            "publishing": true,
+            "published": {
+                "from": "2004-05-31T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 31,
+                        "month": 5,
+                        "year": 2004
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "May 31, 2004 to ?"
+            },
+            "score": 8.28,
+            "scored": 8.28,
+            "scored_by": 64895,
+            "rank": 337,
+            "popularity": 72,
+            "members": 165459,
+            "favorites": 12586,
+            "synopsis": "Thousands of years ago, there existed those gifted with the power of God. Their mission: to destroy the ominous evils that lurk in the darkness known as \"Akuma.\" Led by the Milenium Earl, Akuma seek to destroy fragments of \"Innocence,\" the only weapons capable of harming the Earl and his army and bring about the Great Flood from a hundred years ago. \n\nTo prevent this tragedy from happening, the Black Order was formed as an organization dedicated to fighting the Earl. They recruit Exorcists, those with the inherent ability to accomodate Innocence, to fight against the Akuma.\n\nIn the late 19th century, Allen Walker—a white-haired boy armed with Innocence that takes the form of his entire left arm and a cursed eye that can see Akuma—is sent to the Black Order. There, Allen meets various comrades from the Order—the mercurial Yuu Kanda, the kindhearted Lenalee Lee, and the cheerful yet mysterious Lavi. Despite their different personalities, they have one goal in mind: to bring salvation to the souls of Akuma and prevent the Earl from destroying the world.\n\n[Written by MAL Rewrite]",
+            "background": "D.Gray-man has been published in English by VIZ Media under the Shonen Jump Advanced imprint since May 2, 2006 and in 3-in-1 omnibus editions since July 2, 2013. It has been also published in Spanish, first the first 23 volumes by Glénat until August 2012, when Shueisha broke the contract with Glénat, and then by Ivrea since July 2013, re-editing the first 23 volumes and simultaneously publishing new volumes; and in Italian by Panini Comics under the Planet Manga imprint since July 20, 2006.",
+            "authors": [
+                {
+                    "mal_id": 1892,
+                    "type": "people",
+                    "name": "Hoshino, Katsura",
+                    "url": "https://myanimelist.net/people/1892/Katsura_Hoshino"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 1477,
+                    "type": "manga",
+                    "name": "Jump SQ.Rise",
+                    "url": "https://myanimelist.net/manga/magazine/1477/Jump_SQRise"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "manga",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/manga/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "manga",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 83,
+                    "type": "manga",
+                    "name": "Urban Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/83/Urban_Fantasy"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "manga",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/manga/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 122663,
+            "url": "https://myanimelist.net/manga/122663/Tower_of_God",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/223694.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/223694t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/223694l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/223694.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/223694t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/223694l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Tower of God"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Sin-ui Tap"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "신의 탑"
+                },
+                {
+                    "type": "English",
+                    "title": "Tower of God"
+                }
+            ],
+            "title": "Tower of God",
+            "title_english": "Tower of God",
+            "title_japanese": "신의 탑",
+            "title_synonyms": ["Sin-ui Tap"],
+            "type": "Manhwa",
+            "chapters": null,
+            "volumes": null,
+            "status": "Publishing",
+            "publishing": true,
+            "published": {
+                "from": "2010-07-05T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 5,
+                        "month": 7,
+                        "year": 2010
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Jul 5, 2010 to ?"
+            },
+            "score": 8.36,
+            "scored": 8.36,
+            "scored_by": 84957,
+            "rank": 262,
+            "popularity": 40,
+            "members": 203340,
+            "favorites": 12782,
+            "synopsis": "Twenty-Fifth Bam had been alone his whole life until he met Rachel. Now, however, Rachel is set on climbing the Tower, and she is willing to leave Bam behind to do so. After Rachel disappears in a veil of light, Bam follows her, vowing to ascend the Tower in hopes of meeting her again.\n\nBut the Tower is a dangerous place full of ancient secrets, fearsome monsters, and nefarious humans. Each floor is protected by an Administrator who puts the daring challengers through grueling tests that will push them to their limits.\n\nAs he confronts Headon, the Administrator of the first floor, Bam learns that he is an ''Irregular,'' someone who was not chosen by the Tower but was able to enter it on his own, an extremely rare event inside the Tower. Regardless of this revelation, however, his path forward is clear. Be it wealth, power, glory, or even reuniting with Rachel, all desires will be realized at the top of the Tower.\n\n[Written by MAL Rewrite]",
+            "background": "Tower of God has been published digitally in English by LINE Webtoon since June 30, 2014, and in print by Wattpad Webtoon Studios under its Webtoon Unscrolled imprint since November 22, 2022. It has also been released in Spain and Mexico by Panini Comics since November 25, 2021, and January 26, 2022, respectively.",
+            "authors": [
+                {
+                    "mal_id": 49934,
+                    "type": "people",
+                    "name": "SIU",
+                    "url": "https://myanimelist.net/people/49934/SIU"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 673,
+                    "type": "manga",
+                    "name": "Naver Webtoon",
+                    "url": "https://myanimelist.net/manga/magazine/673/Naver_Webtoon"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "manga",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/manga/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 8,
+                    "type": "manga",
+                    "name": "Drama",
+                    "url": "https://myanimelist.net/manga/genre/8/Drama"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "manga",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/10/Fantasy"
+                },
+                {
+                    "mal_id": 7,
+                    "type": "manga",
+                    "name": "Mystery",
+                    "url": "https://myanimelist.net/manga/genre/7/Mystery"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [],
+            "demographics": []
+        },
+        {
+            "mal_id": 141120,
+            "url": "https://myanimelist.net/manga/141120/The_Boxer",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/251281.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/251281t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/251281l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/251281.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/251281t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/251281l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "The Boxer"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "더 복서"
+                },
+                {
+                    "type": "English",
+                    "title": "The Boxer"
+                }
+            ],
+            "title": "The Boxer",
+            "title_english": "The Boxer",
+            "title_japanese": "더 복서",
+            "title_synonyms": [],
+            "type": "Manhwa",
+            "chapters": 123,
+            "volumes": null,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2019-12-04T00:00:00+00:00",
+                "to": "2022-05-04T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 4,
+                        "month": 12,
+                        "year": 2019
+                    },
+                    "to": {
+                        "day": 4,
+                        "month": 5,
+                        "year": 2022
+                    }
+                },
+                "string": "Dec 4, 2019 to May 4, 2022"
+            },
+            "score": 8.5,
+            "scored": 8.5,
+            "scored_by": 24207,
+            "rank": 147,
+            "popularity": 364,
+            "members": 49276,
+            "favorites": 1976,
+            "synopsis": "Having suffered ruthless bullying for the better part of his life, 17-year-old Yu has become emotionally numb and dissociated from reality, no longer able to act like a normal human being. Although he possesses the exceptional talent to dodge punches, Yu prefers to let his perpetrators beat him down as he finds no meaning in his survival.\n\nThings begin to look up when Yu meets an old boxing trainer nicknamed \"K.\" Having raised five champions, K's years of experience and an impressive gut feeling allow him to recognize Yu's near-superhuman fighting charisma immediately. K rushes to take Yu under his wing, despite the latter's apparent lack of interest.\n\nHowever, after being reminded of a bright memory from the past, Yu has a change of heart and accepts K's offer, hoping to experience the same light once again. Thus, Yu enters a world full of formidable adversaries—righteous and monstrous alike—and for the first time ever, he has no choice but to fight back.\n\n[Written by MAL Rewrite]",
+            "background": "The Boxer is originally a webtoon series which has been officially published in book format by Daewon C.I. (대원씨아이) since October 29, 2021. The series has been digitally published in English by LINE Webtoon since May 28, 2020. The volumes have been published by Yen Press under the Ize Press imprint since December 20, 2022. It has also been released in German by Altraverse since July 17, 2023.",
+            "authors": [
+                {
+                    "mal_id": 51162,
+                    "type": "people",
+                    "name": "Jeong, Ji-Hoon",
+                    "url": "https://myanimelist.net/people/51162/Ji-Hoon_Jeong"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 673,
+                    "type": "manga",
+                    "name": "Naver Webtoon",
+                    "url": "https://myanimelist.net/manga/magazine/673/Naver_Webtoon"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 8,
+                    "type": "manga",
+                    "name": "Drama",
+                    "url": "https://myanimelist.net/manga/genre/8/Drama"
+                },
+                {
+                    "mal_id": 30,
+                    "type": "manga",
+                    "name": "Sports",
+                    "url": "https://myanimelist.net/manga/genre/30/Sports"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 54,
+                    "type": "manga",
+                    "name": "Combat Sports",
+                    "url": "https://myanimelist.net/manga/genre/54/Combat_Sports"
+                }
+            ],
+            "demographics": []
+        },
+        {
+            "mal_id": 29983,
+            "url": "https://myanimelist.net/manga/29983/Noblesse",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/266261.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/266261t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/266261l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/266261.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/266261t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/266261l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Noblesse"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "노블레스"
+                },
+                {
+                    "type": "English",
+                    "title": "Noblesse"
+                }
+            ],
+            "title": "Noblesse",
+            "title_english": "Noblesse",
+            "title_japanese": "노블레스",
+            "title_synonyms": [],
+            "type": "Manhwa",
+            "chapters": 544,
+            "volumes": null,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2007-12-30T00:00:00+00:00",
+                "to": "2019-01-07T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 30,
+                        "month": 12,
+                        "year": 2007
+                    },
+                    "to": {
+                        "day": 7,
+                        "month": 1,
+                        "year": 2019
+                    }
+                },
+                "string": "Dec 30, 2007 to Jan 7, 2019"
+            },
+            "score": 8.1,
+            "scored": 8.1,
+            "scored_by": 44459,
+            "rank": 598,
+            "popularity": 132,
+            "members": 111764,
+            "favorites": 4897,
+            "synopsis": "Within an abandoned building in South Korea lies a white coffin, from which rises Cadis Etrama Di Raizel \"Rai\"—an unimaginably beautiful, dignified, and noble man. Awakening in this unknown time, Rai must seek out someone he can trust—his loyal companion, Frankenstein. To begin with, Rai attempts to blend into human society by transforming his old-fashioned clothing into the pristine blazer of the nearby Ye Ran High School. As it turns out, the principal of the school is his servant Frankenstein.\n\nAfter slumbering for the past 820 years, Rai requires Frankenstein's help to adapt to the current age, so Frankenstein enrolls him as a new student in order to help him understand modern society and experience a normal life. Frankenstein's plans, however, soon go awry not only because of the problems stemming from modern society, but also unresolved conflicts from him and his master's troubled past. Left with no other choice, Rai must resort to using his mysterious power to protect those he holds dear.\n\n[Written by MAL Rewrite]",
+            "background": "Noblesse was published digitally in English by LINE Webtoon from June 30, 2014, to January 8, 2019. It has been published in Japan by Futabasha since August 28, 2015.",
+            "authors": [
+                {
+                    "mal_id": 13989,
+                    "type": "people",
+                    "name": "Son, Jae-Ho",
+                    "url": "https://myanimelist.net/people/13989/Jae-Ho_Son"
+                },
+                {
+                    "mal_id": 13991,
+                    "type": "people",
+                    "name": "Lee, Gwang-Su",
+                    "url": "https://myanimelist.net/people/13991/Gwang-Su_Lee"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 673,
+                    "type": "manga",
+                    "name": "Naver Webtoon",
+                    "url": "https://myanimelist.net/manga/magazine/673/Naver_Webtoon"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 2,
+                    "type": "manga",
+                    "name": "Adventure",
+                    "url": "https://myanimelist.net/manga/genre/2/Adventure"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "manga",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/manga/genre/4/Comedy"
+                },
+                {
+                    "mal_id": 37,
+                    "type": "manga",
+                    "name": "Supernatural",
+                    "url": "https://myanimelist.net/manga/genre/37/Supernatural"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 23,
+                    "type": "manga",
+                    "name": "School",
+                    "url": "https://myanimelist.net/manga/genre/23/School"
+                }
+            ],
+            "demographics": []
+        },
+        {
+            "mal_id": 8586,
+            "url": "https://myanimelist.net/manga/8586/The_Breaker",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/270151.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/270151t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/270151l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/2/270151.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/2/270151t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/2/270151l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "The Breaker"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "브레이커"
+                },
+                {
+                    "type": "English",
+                    "title": "The Breaker"
+                }
+            ],
+            "title": "The Breaker",
+            "title_english": "The Breaker",
+            "title_japanese": "브레이커",
+            "title_synonyms": [],
+            "type": "Manhwa",
+            "chapters": 72,
+            "volumes": 10,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2007-06-01T00:00:00+00:00",
+                "to": "2010-07-20T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 1,
+                        "month": 6,
+                        "year": 2007
+                    },
+                    "to": {
+                        "day": 20,
+                        "month": 7,
+                        "year": 2010
+                    }
+                },
+                "string": "Jun 1, 2007 to Jul 20, 2010"
+            },
+            "score": 8.39,
+            "scored": 8.39,
+            "scored_by": 71189,
+            "rank": 228,
+            "popularity": 83,
+            "members": 147352,
+            "favorites": 6141,
+            "synopsis": "Yi \"Shioon\" Shi-Woon's everyday life at Nine Dragons High School—which consists of beatings from fellow student Ho Chang and his gang—is far from ideal. But one day, a mysterious man named Han Chun Woo spots one of these beatings and instead of offering support, brands Shioon a coward for refusing to fight back, adding insult to injury. To Shioon's surprise, he finds out that Chun Woo is the new substitute English teacher at his school.\n\nTired of the daily abuse, Shioon decides to enroll at a martial arts academy to learn how to defend himself. On the way there, he stumbles upon Chun Woo in a predicament—cornered in an alley by a group of angry men! Provoked, Chun Woo suddenly dispatches them using martial arts techniques, which Shioon covertly records. Later, he uses this recording to blackmail Chun Woo into teaching him to defend himself. Reluctantly, Chun Woo agrees, and Shioon is soon thrust into the world of martial arts, known as Murim. However, Shioon is naive and unaware of his master's shady past and the unseen underbelly of society. How will Chun Woo manage to teach Shioon and help him survive in the world of Murim?\n\n[Written by MAL Rewrite]",
+            "background": "The Breaker has been published in English by Ablaze as 2-in-1 omnibus volumes since June 30, 2021; in Polish by Yumegari from February 2013 to January 2015.",
+            "authors": [
+                {
+                    "mal_id": 1962,
+                    "type": "people",
+                    "name": "Park, Jin-Hwan",
+                    "url": "https://myanimelist.net/people/1962/Jin-Hwan_Park"
+                },
+                {
+                    "mal_id": 11344,
+                    "type": "people",
+                    "name": "Jeon, Geuk-jin",
+                    "url": "https://myanimelist.net/people/11344/Geuk-jin_Jeon"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 926,
+                    "type": "manga",
+                    "name": "Young Champ",
+                    "url": "https://myanimelist.net/manga/magazine/926/Young_Champ"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 4,
+                    "type": "manga",
+                    "name": "Comedy",
+                    "url": "https://myanimelist.net/manga/genre/4/Comedy"
+                },
+                {
+                    "mal_id": 8,
+                    "type": "manga",
+                    "name": "Drama",
+                    "url": "https://myanimelist.net/manga/genre/8/Drama"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "manga",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/manga/genre/17/Martial_Arts"
+                },
+                {
+                    "mal_id": 23,
+                    "type": "manga",
+                    "name": "School",
+                    "url": "https://myanimelist.net/manga/genre/23/School"
+                }
+            ],
+            "demographics": []
+        },
+        {
+            "mal_id": 29447,
+            "url": "https://myanimelist.net/manga/29447/Kurogane",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/1/256303.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/1/256303t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/1/256303l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/1/256303.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/1/256303t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/1/256303l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Kurogane"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "クロガネ"
+                }
+            ],
+            "title": "Kurogane",
+            "title_english": null,
+            "title_japanese": "クロガネ",
+            "title_synonyms": [],
+            "type": "Manga",
+            "chapters": 70,
+            "volumes": 8,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2011-09-05T00:00:00+00:00",
+                "to": "2013-01-28T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 5,
+                        "month": 9,
+                        "year": 2011
+                    },
+                    "to": {
+                        "day": 28,
+                        "month": 1,
+                        "year": 2013
+                    }
+                },
+                "string": "Sep 5, 2011 to Jan 28, 2013"
+            },
+            "score": 7.42,
+            "scored": 7.42,
+            "scored_by": 7777,
+            "rank": 3678,
+            "popularity": 1371,
+            "members": 15567,
+            "favorites": 100,
+            "synopsis": "Kurogane Hiroto is in high school, where he is academically the top of his class but literally the worst in physical activity. Born with a weak body, he has no endurance, speed nor strength and Hiroto wants nothing more than to be a hero. Fate teases him by giving him phenomenal eye sight, which allows him to see well beyond anyone else in sports, but his body is not able to react to any of it.\n\nHe learns from his friend Shiratori, who wants to recruit him for the Kendo team, about a rumor about a ghost named Tojo Sayuri, who wields a katana and haunts an ally in the city. Half curious, Hiroto goes there only to find that the ghost is real and that Tojo Sayuri has been looking for a successor to her Sakura sword style for 150 years. Sayuri chooses him as the successor after being able to dodge her attack and forces him to learn the Sakura style. Even with the help of the ancient swordsman ghost, Hiroto has to overcome his poor motor skills in order to be the hero he always wanted to be.\n\n(Source: MU)",
+            "background": "",
+            "authors": [
+                {
+                    "mal_id": 13255,
+                    "type": "people",
+                    "name": "Ikezawa, Haruto",
+                    "url": "https://myanimelist.net/people/13255/Haruto_Ikezawa"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 83,
+                    "type": "manga",
+                    "name": "Shounen Jump (Weekly)",
+                    "url": "https://myanimelist.net/manga/magazine/83/Shounen_Jump_Weekly"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 37,
+                    "type": "manga",
+                    "name": "Supernatural",
+                    "url": "https://myanimelist.net/manga/genre/37/Supernatural"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 17,
+                    "type": "manga",
+                    "name": "Martial Arts",
+                    "url": "https://myanimelist.net/manga/genre/17/Martial_Arts"
+                },
+                {
+                    "mal_id": 23,
+                    "type": "manga",
+                    "name": "School",
+                    "url": "https://myanimelist.net/manga/genre/23/School"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "manga",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/manga/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 116778,
+            "url": "https://myanimelist.net/manga/116778/Chainsaw_Man",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/216464.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/216464t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/216464l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/216464.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/216464t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/216464l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Chainsaw Man"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "チェンソーマン"
+                },
+                {
+                    "type": "English",
+                    "title": "Chainsaw Man"
+                }
+            ],
+            "title": "Chainsaw Man",
+            "title_english": "Chainsaw Man",
+            "title_japanese": "チェンソーマン",
+            "title_synonyms": [],
+            "type": "Manga",
+            "chapters": null,
+            "volumes": null,
+            "status": "Publishing",
+            "publishing": true,
+            "published": {
+                "from": "2018-12-03T00:00:00+00:00",
+                "to": null,
+                "prop": {
+                    "from": {
+                        "day": 3,
+                        "month": 12,
+                        "year": 2018
+                    },
+                    "to": {
+                        "day": null,
+                        "month": null,
+                        "year": null
+                    }
+                },
+                "string": "Dec 3, 2018 to ?"
+            },
+            "score": 8.69,
+            "scored": 8.69,
+            "scored_by": 405270,
+            "rank": 62,
+            "popularity": 3,
+            "members": 670089,
+            "favorites": 85683,
+            "synopsis": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.\n\nUnfortunately, he has outlived his usefulness and is murdered by a devil in contract with the yakuza. However, in an unexpected turn of events, Pochita merges with Denji's dead body and grants him the powers of a chainsaw devil. Now able to transform parts of his body into chainsaws, a revived Denji uses his new abilities to quickly and brutally dispatch his enemies. Catching the eye of the official devil hunters who arrive at the scene, he is offered work at the Public Safety Bureau as one of them. Now with the means to face even the toughest of enemies, Denji will stop at nothing to achieve his simple teenage dreams.\n\n[Written by MAL Rewrite]",
+            "background": "Chainsaw Man ranked fourth and first in the 2020 and 2021 Kono Manga ga Sugoi! for the Male Readers division, respectively. The series was nominated for the 13th Manga Taisho Award in 2020. It won the 66th Shogakukan Manga Award in the Shounen category, along with Karakai Jouzu no Takagi-san. As part of the JUMP START initiative, the first three chapters of Chainsaw Man were published in English in VIZ Media's digital Weekly Shounen Jump on the same day as the Japanese release. It has been published digitally as an English simulpub through MANGA Plus. The volumes have been published in English by VIZ Media under the Shonen Jump imprint since October 6, 2020. The manga has also been published in German by Egmont since October 6, 2020, and in Italian by Planet Manga since July 22, 2021. The first part of the series ended with 97 chapters on December 14, 2020. Serialization of the second part began on Shounen Jump+ with the release of chapter 98 on July 13, 2022.",
+            "authors": [
+                {
+                    "mal_id": 41158,
+                    "type": "people",
+                    "name": "Fujimoto, Tatsuki",
+                    "url": "https://myanimelist.net/people/41158/Tatsuki_Fujimoto"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 1209,
+                    "type": "manga",
+                    "name": "Shounen Jump+",
+                    "url": "https://myanimelist.net/manga/magazine/1209/Shounen_Jump_"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 46,
+                    "type": "manga",
+                    "name": "Award Winning",
+                    "url": "https://myanimelist.net/manga/genre/46/Award_Winning"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "manga",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/10/Fantasy"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 58,
+                    "type": "manga",
+                    "name": "Gore",
+                    "url": "https://myanimelist.net/manga/genre/58/Gore"
+                },
+                {
+                    "mal_id": 83,
+                    "type": "manga",
+                    "name": "Urban Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/83/Urban_Fantasy"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 27,
+                    "type": "manga",
+                    "name": "Shounen",
+                    "url": "https://myanimelist.net/manga/genre/27/Shounen"
+                }
+            ]
+        },
+        {
+            "mal_id": 128231,
+            "url": "https://myanimelist.net/manga/128231/Weak_Hero",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/232795.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/232795t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/232795l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/232795.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/232795t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/232795l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Weak Hero"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Yakhan Yeong-ung"
+                },
+                {
+                    "type": "Japanese",
+                    "title": "약한영웅"
+                },
+                {
+                    "type": "English",
+                    "title": "Weak Hero"
+                }
+            ],
+            "title": "Weak Hero",
+            "title_english": "Weak Hero",
+            "title_japanese": "약한영웅",
+            "title_synonyms": ["Yakhan Yeong-ung"],
+            "type": "Manhwa",
+            "chapters": 267,
+            "volumes": null,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2018-05-05T00:00:00+00:00",
+                "to": "2023-10-14T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 5,
+                        "month": 5,
+                        "year": 2018
+                    },
+                    "to": {
+                        "day": 14,
+                        "month": 10,
+                        "year": 2023
+                    }
+                },
+                "string": "May 5, 2018 to Oct 14, 2023"
+            },
+            "score": 7.96,
+            "scored": 7.96,
+            "scored_by": 11283,
+            "rank": 847,
+            "popularity": 724,
+            "members": 27134,
+            "favorites": 653,
+            "synopsis": "Due to widespread bullying in Eunjang High School, weak students live in constant fear of becoming the next prey. But their luck is bound to change when Gray Yeon—a scrawny freshman, no taller than 157 cm—leaves the entire class in shock—stands up to a bully twice his size and overpowers him with ease.\n\nGray's courageous act, resourcefulness, and unique insight earn him the nickname Eunjang's White Mamba. Despite his size, Gray continues trading blows with bigger and stronger bullies from other high schools in town, all in hopes of preventing history from repeating itself.\n\n[Written by MAL Rewrite]",
+            "background": "Weak Hero is originally a webtoon series which has been officially published in book format by Jaedam Books (재담북스) since April 10, 2020. The series has been published digitally in English by LINE Webtoon since September 9, 2019.",
+            "authors": [
+                {
+                    "mal_id": 41156,
+                    "type": "people",
+                    "name": "RAZEN",
+                    "url": "https://myanimelist.net/people/41156/RAZEN"
+                },
+                {
+                    "mal_id": 51718,
+                    "type": "people",
+                    "name": "Seopass",
+                    "url": "https://myanimelist.net/people/51718/Seopass"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 673,
+                    "type": "manga",
+                    "name": "Naver Webtoon",
+                    "url": "https://myanimelist.net/manga/magazine/673/Naver_Webtoon"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 8,
+                    "type": "manga",
+                    "name": "Drama",
+                    "url": "https://myanimelist.net/manga/genre/8/Drama"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 23,
+                    "type": "manga",
+                    "name": "School",
+                    "url": "https://myanimelist.net/manga/genre/23/School"
+                }
+            ],
+            "demographics": []
+        },
+        {
+            "mal_id": 81117,
+            "url": "https://myanimelist.net/manga/81117/Tokyo_Ghoul_re",
+            "images": {
+                "jpg": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/145997.jpg",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/145997t.jpg",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/145997l.jpg"
+                },
+                "webp": {
+                    "image_url": "https://cdn.myanimelist.net/images/manga/3/145997.webp",
+                    "small_image_url": "https://cdn.myanimelist.net/images/manga/3/145997t.webp",
+                    "large_image_url": "https://cdn.myanimelist.net/images/manga/3/145997l.webp"
+                }
+            },
+            "approved": true,
+            "titles": [
+                {
+                    "type": "Default",
+                    "title": "Tokyo Ghoul:re"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Tokyo Kushu:re"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Toukyou Kuushu:re"
+                },
+                {
+                    "type": "Synonym",
+                    "title": "Tokyo Ghoul: \"Joker\""
+                },
+                {
+                    "type": "Japanese",
+                    "title": "東京喰種-トーキョーグール-:re"
+                },
+                {
+                    "type": "English",
+                    "title": "Tokyo Ghoul:re"
+                },
+                {
+                    "type": "French",
+                    "title": "Tokyo Ghoul : Re"
+                }
+            ],
+            "title": "Tokyo Ghoul:re",
+            "title_english": "Tokyo Ghoul:re",
+            "title_japanese": "東京喰種-トーキョーグール-:re",
+            "title_synonyms": [
+                "Tokyo Kushu:re",
+                "Toukyou Kuushu:re",
+                "Tokyo Ghoul: \"Joker\""
+            ],
+            "type": "Manga",
+            "chapters": 181,
+            "volumes": 16,
+            "status": "Finished",
+            "publishing": false,
+            "published": {
+                "from": "2014-10-16T00:00:00+00:00",
+                "to": "2018-07-05T00:00:00+00:00",
+                "prop": {
+                    "from": {
+                        "day": 16,
+                        "month": 10,
+                        "year": 2014
+                    },
+                    "to": {
+                        "day": 5,
+                        "month": 7,
+                        "year": 2018
+                    }
+                },
+                "string": "Oct 16, 2014 to Jul 5, 2018"
+            },
+            "score": 8.31,
+            "scored": 8.31,
+            "scored_by": 158575,
+            "rank": 303,
+            "popularity": 21,
+            "members": 304386,
+            "favorites": 21537,
+            "synopsis": "Two years have passed since the CCG's raid on Anteiku. Although the atmosphere in Tokyo has changed drastically due to the increased influence of the CCG, ghouls continue to pose a problem as they have begun taking caution, especially the terrorist organization Aogiri Tree, who acknowledge the CCG's growing threat to their existence.\n\nThe creation of a special team, known as the Quinx Squad, may provide the CCG with the push they need to exterminate Tokyo's unwanted residents. As humans who have undergone surgery in order to make use of the special abilities of ghouls, they participate in operations to eradicate the dangerous creatures. The leader of this group, Haise Sasaki, is a half-ghoul, half-human who has been trained by famed special class investigator, Kishou Arima. However, there's more to this young man than meets the eye, as unknown memories claw at his mind, slowly reminding him of the person he used to be.\n\n[Written by MAL Rewrite]",
+            "background": "Tokyo Ghoul:re was the 10th best-selling manga series in Japan in 2015 with an estimated sales of 3,758,541 copies sold. The series was published in English by VIZ Media from October 17, 2017 to April 21, 2020. It is also published in Spanish by Norma Editorial since June 23, 2016; in German by Kazé since September 1, 2016; in Polish by Waneko since August 14, 2017; and in Portuguese by Panini Editorial since December 15, 2017.",
+            "authors": [
+                {
+                    "mal_id": 15753,
+                    "type": "people",
+                    "name": "Ishida, Sui",
+                    "url": "https://myanimelist.net/people/15753/Sui_Ishida"
+                }
+            ],
+            "serializations": [
+                {
+                    "mal_id": 87,
+                    "type": "manga",
+                    "name": "Young Jump",
+                    "url": "https://myanimelist.net/manga/magazine/87/Young_Jump"
+                }
+            ],
+            "genres": [
+                {
+                    "mal_id": 1,
+                    "type": "manga",
+                    "name": "Action",
+                    "url": "https://myanimelist.net/manga/genre/1/Action"
+                },
+                {
+                    "mal_id": 10,
+                    "type": "manga",
+                    "name": "Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/10/Fantasy"
+                },
+                {
+                    "mal_id": 14,
+                    "type": "manga",
+                    "name": "Horror",
+                    "url": "https://myanimelist.net/manga/genre/14/Horror"
+                }
+            ],
+            "explicit_genres": [],
+            "themes": [
+                {
+                    "mal_id": 58,
+                    "type": "manga",
+                    "name": "Gore",
+                    "url": "https://myanimelist.net/manga/genre/58/Gore"
+                },
+                {
+                    "mal_id": 40,
+                    "type": "manga",
+                    "name": "Psychological",
+                    "url": "https://myanimelist.net/manga/genre/40/Psychological"
+                },
+                {
+                    "mal_id": 83,
+                    "type": "manga",
+                    "name": "Urban Fantasy",
+                    "url": "https://myanimelist.net/manga/genre/83/Urban_Fantasy"
+                }
+            ],
+            "demographics": [
+                {
+                    "mal_id": 41,
+                    "type": "manga",
+                    "name": "Seinen",
+                    "url": "https://myanimelist.net/manga/genre/41/Seinen"
+                }
+            ]
+        }
+    ]
+}
