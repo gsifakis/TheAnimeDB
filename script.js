@@ -49,25 +49,23 @@ async function fetchData(path) {
     }
 }
 
-async function displayAnimeDetails() {
-    const data = await fetchData("../recommendations/anime.json");
-    const desc = data.synopsis;
-    // desc.replace("[Written by MAL Rewrite]", "");
-    const details = document.querySelector(".details-description");
-    details.innerHTML = `${desc
-        .split("[Written by MAL Rewrite]")
-        .join("")
-        .replaceAll("\n", "<br>")}`;
+// async function displayAnimeDetails() {
+//     const data = await fetchData("../recommendations/anime.json");
+//     const desc = data.synopsis;
+//     // desc.replace("[Written by MAL Rewrite]", "");
+//     const details = document.querySelector(".details-description");
+//     details.innerHTML = `${desc
+//         .split("[Written by MAL Rewrite]")
+//         .join("")
+//         .replaceAll("\n", "<br>")}`;
 
-    console.log(desc);
-    console.log(data);
-}
+//     console.log(desc);
+//     console.log(data);
+// }
 
 async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
-
-    console.log(data);
 
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
@@ -131,9 +129,16 @@ async function displayDetails(type) {
     // genres List
     const genresList = document.createElement("ul");
     genresList.classList.add("details-genres-list");
-    data.genres.forEach((genre) => {
+    data.genres.forEach((genre, index) => {
+        console.log(data.genres.length - 1);
+        console.log(index, genre);
         const genreItem = document.createElement("li");
-        genreItem.innerHTML = `${genre.name}\u00A0`;
+
+        if (index === data.genres.length - 1) {
+            genreItem.innerHTML = `${genre.name}`;
+        } else {
+            genreItem.innerHTML = `${genre.name}\xa0\xa0`;
+        }
         genresList.appendChild(genreItem);
     });
 
@@ -201,7 +206,6 @@ async function displayRecommended(type) {
 async function displaySwiperDetailsRecommended(type, path) {
     await delay(1500);
     const { data } = await fetchData(path);
-    console.log(data);
 
     for (let i = 0; i < Math.min(data.length, 30); i++) {
         const div = document.createElement("div");
@@ -314,13 +318,16 @@ async function displayAllSwipers(type) {
 
 function initSwiper() {
     const swiper = new Swiper(".swiper", {
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 15,
         freeMode: true,
         loop: false,
         autoplay: false,
         breakpoints: {
-            556: {
+            400: {
+                slidesPerView: 2,
+            },
+            558: {
                 slidesPerView: 3,
             },
             700: {

@@ -158,10 +158,10 @@ a {
 
         .mobile-menu-items {
             position: absolute;
-            top: 04.5%;
+            top: 108.16px;
             left: 0;
             width: 100%;
-            height: calc(100vh - 108.16);
+            height: calc(100vh- 108.16);
             background: linear-gradient(to right, #822471, #783675);
             text-align: center;
             padding: 1rem;
@@ -192,17 +192,18 @@ a {
             }
         }
         .mobile-menu-items.active {
-            transform: translateY(0);
+            transform: translateY(1%);
         }
     }
 }
 
 /* MY RECommendations */
 .my-recommendations {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     h2 {
-        padding-bottom: 2rem;
+        margin: 1rem;
+        padding: 1rem;
         text-align: center;
         font-size: 40px;
     }
@@ -321,7 +322,7 @@ a {
 
             .details-title {
                 font-size: 2.2rem;
-                margin-bottom: 0.2rem;
+                margin-bottom: 1.5rem;
             }
 
             .details-second-title {
@@ -335,13 +336,15 @@ a {
 
             .details-genres-title {
                 font-size: 1.5rem;
-                margin-bottom: 0.2rem;
+                margin-bottom: 0.5rem;
+                text-decoration: underline;
             }
             .details-genres-list {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 1rem;
+                flex-wrap: wrap;
+                margin-bottom: 1.3rem;
 
                 li {
                     font-size: 1.3rem;
@@ -546,6 +549,39 @@ a {
 
             .headshot-img {
                 border-radius: 20px;
+            }
+        }
+    }
+    .details {
+        .details-top {
+            flex-direction: column-reverse;
+
+            .details-right {
+                .details-title {
+                    font-size: 2rem;
+                }
+
+                .details-second-title {
+                    font-size: 1.5rem;
+                }
+
+                .details-description {
+                    font-size: 1.15rem;
+                }
+
+                .details-genres-title {
+                    font-size: 1.4rem;
+                }
+                .details-genres-list {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 1rem;
+
+                    li {
+                        font-size: 1.3rem;
+                    }
+                }
             }
         }
     }
