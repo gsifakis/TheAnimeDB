@@ -585,6 +585,9 @@ a {
             }
         }
     }
+    .swiper-header {
+        text-align: center;
+    }
 }
 @media (max-width: 500px) {
     .creators-pick {
