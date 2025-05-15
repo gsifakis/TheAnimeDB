@@ -396,6 +396,10 @@ a {
 
 /* hero */
 
+.blur.active {
+    filter: blur(5px);
+}
+
 .hero-loading {
     height: 100vh;
 }
