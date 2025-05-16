@@ -354,7 +354,7 @@ function displayMenu() {
 
     mobileMenuToggle.addEventListener("click", () => {
         mobileMenuItems.classList.toggle("active");
-        blur.classList.toggle("active");
+        blur.classList.toggle("blur-active");
         body.classList.toggle("overflow-y");
     });
 }
@@ -393,6 +393,5 @@ function init() {
     highlightActiveLink();
     displayMenu();
 }
-console.log(global.currentPage);
 
 window.addEventListener("DOMContentLoaded", init);

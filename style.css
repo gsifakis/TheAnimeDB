@@ -202,7 +202,7 @@ a {
     margin-bottom: 2rem;
 
     h2 {
-        margin: 1rem;
+        margin: 1rem auto;
         padding: 1rem;
         text-align: center;
         font-size: 40px;
@@ -396,7 +396,7 @@ a {
 
 /* hero */
 
-.blur.active {
+.blur-active {
     filter: blur(5px);
 }
 
@@ -540,6 +540,13 @@ a {
         padding-bottom: 1rem;
     }
 
+    .my-recommendations {
+        h2 {
+            max-width: 100%;
+            font-size: 1.8rem;
+        }
+    }
+
     .creators-pick {
         padding: 1rem;
         grid-template-columns: repeat(2, 1fr);
@@ -590,6 +597,7 @@ a {
         }
     }
     .swiper-header {
+        margin: 1rem auto;
         text-align: center;
     }
 }
@@ -599,11 +607,19 @@ a {
         grid-template-columns: repeat(1, 1fr);
 
         .card {
-            width: 300px;
+            max-width: 300px;
 
-            .title {
+            /* .title {
                 text-align: center;
-            }
+            } */
+        }
+    }
+}
+
+@media (max-width: 300px) {
+    .nav {
+        .logo {
+            display: none;
         }
     }
 }
