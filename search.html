@@ -66,34 +66,55 @@
             </div>
         </nav>
 
-        <section class="details container blur">
-            <div class="details-top">
-                <div class="details-left"></div>
-                <div class="details-right"></div>
-            </div>
-
-            <!-- <div class="details-middle">
-                <h2>Information</h2>
-                <div class="details-middle-more">
-                    <h3>Aired From : 00/02/1995- 00/05/1995</h3>
-                    <div class="details-genres">
-                        <h3>Genres</h3>
-                        <p>Genre1 , 2 , 3</p>
+        <section class="search container blur">
+            <div class="search-container">
+                <div id="alert"></div>
+                <form action="/search.html" class="search-form">
+                    <!-- radio box -->
+                    <div class="search-bar">
+                        <input
+                            type="text"
+                            name="search-text"
+                            id="search-text"
+                            placeholder="Enter Title"
+                        />
+                        <button
+                            class="search-btn search-btn-font"
+                            type="submit"
+                        >
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="search-btn search-btn-sm" type="submit">
+                            <h4>Search</h4>
+                        </button>
                     </div>
-                    <ul class="details-licensors">
-                        <h3>Licensors</h3>
-                        <p>Licensor1 - 2 - 3</p>
-                    </ul>
-                </div>
-            </div> -->
-
-            <div class="details-bottom">
-                <h2 class="similar">More Like This</h2>
-                <div class="swiper">
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper details-recommended"></div>
-                </div>
+                    <div class="search-radio">
+                        <div class="radio-btn">
+                            <input
+                                type="radio"
+                                id="anime"
+                                name="type"
+                                value="anime"
+                                checked
+                            />
+                            <label for="animes">Anime</label>
+                        </div>
+                        <div class="radio-btn">
+                            <input
+                                type="radio"
+                                id="manga"
+                                name="type"
+                                value="manga"
+                            />
+                            <label for="mangas">Manga</label>
+                        </div>
+                    </div>
+                </form>
             </div>
+
+            <div id="search-fake-body"></div>
+
+            <div id="search-results" class="results-grid"></div>
         </section>
 
         <footer>

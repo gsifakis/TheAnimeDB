@@ -1,5 +1,11 @@
 const global = {
     currentPage: window.location.pathname,
+    search: {
+        text: "",
+        type: "",
+        page: 1,
+        totalPages: 1,
+    },
 };
 
 // Urls
@@ -21,13 +27,21 @@ const swiperURLS = {
 
 const localRecPath = "../recommendations/";
 const API_URL = "https://api.jikan.moe/v4/";
-const localAnime = "../recommendations/anime-recommendations.json";
-const localManga = "../recommendations/manga-recommendations.json";
 
 // Classes, divs etc
 
 function delay(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function filterData(data) {
+    const filteredData = Array.from(new Set(data.map((a) => a.mal_id))).map(
+        (mal_id) => {
+            return data.find((a) => a.mal_id === mal_id);
+        }
+    );
+
+    return data;
 }
 
 async function fetchData(path) {
@@ -168,7 +182,7 @@ async function displayDetails(type) {
 }
 
 async function displayRecommended(type) {
-    const creators = document.getElementById(`my-${type}`);
+    const myType = document.getElementById(`my-${type}`);
 
     const { data } = await fetchData(
         `${localRecPath}${type}-recommendations.json`
@@ -178,7 +192,6 @@ async function displayRecommended(type) {
         const link = document.createElement("a");
         link.classList.add("card");
         link.href = `${type}-details.html?id=${el.mal_id}`;
-        link.target = "_blank";
 
         const title = document.createElement("h3");
         title.classList.add("title");
@@ -198,8 +211,66 @@ async function displayRecommended(type) {
         link.appendChild(img);
         link.appendChild(title);
         link.appendChild(rating);
-        creators.appendChild(link);
+        myType.appendChild(link);
     }
+}
+
+// Search Functions
+async function search() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const searchContainer = document.getElementById("search-results");
+
+    global.search.text = urlParams.get("search-text");
+    global.search.type = urlParams.get("type");
+
+    if (global.search.text === "" || global.search.text === null) {
+        showAlert("Search cannot be empty");
+    } else {
+        const searchFakeBody = document.getElementById("search-fake-body");
+        searchContainer.innerHTML = "";
+        searchFakeBody.style = "display:block";
+
+        const data = await fetchData(
+            `${API_URL}${global.search.type}?q=${global.search.text}`
+        );
+
+        console.log(filterData(data.data));
+
+        for (el of filterData(data.data)) {
+            const link = document.createElement("a");
+            link.classList.add("card");
+            link.href = `${global.search.type}-details.html?id=${el.mal_id}`;
+
+            const title = document.createElement("h3");
+            title.classList.add("title");
+            let titleText = el.title_english || el.title;
+            title.innerHTML = `${titleText}`;
+
+            const img = document.createElement("img");
+            img.classList.add("headshot-img");
+            img.src = `${el.images.jpg.large_image_url}`;
+            // img.title = `${el.title}`; Hover img property
+
+            const rating = document.createElement("h4");
+            rating.innerHTML = `<i class="fa-solid fa-star"></i> ${el.score}`;
+
+            link.appendChild(img);
+            link.appendChild(title);
+            link.appendChild(rating);
+            searchFakeBody.style = "display:none";
+            searchContainer.appendChild(link);
+        }
+    }
+}
+
+function showAlert(message) {
+    const alertEl = document.createElement("div");
+    alertEl.classList.add("alert");
+    alertEl.appendChild(document.createTextNode(message));
+    document.querySelector("#alert").appendChild(alertEl);
+
+    setTimeout(() => alertEl.remove(), 2000);
 }
 
 // Swipper Thingies
@@ -237,13 +308,8 @@ async function displaySwiper(type, path) {
     const { data } = await fetchData(path);
 
     // filtering for duplicate data
-    const filteredData = Array.from(new Set(data.map((a) => a.mal_id))).map(
-        (mal_id) => {
-            return data.find((a) => a.mal_id === mal_id);
-        }
-    );
 
-    filteredData.forEach((element) => {
+    filterData(data).forEach((element) => {
         const div = document.createElement("div");
         div.classList.add("swiper-slide");
 
@@ -388,6 +454,8 @@ function init() {
             displayRecommended("anime");
             displayRecommended("manga");
             break;
+        case "/search.html":
+            search();
     }
 
     highlightActiveLink();
