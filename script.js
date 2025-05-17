@@ -230,12 +230,11 @@ async function search() {
         const data = await fetchData(
             `${API_URL}${global.search.type}?q=${global.search.text}&page=${global.search.page}`
         );
-        console.log(data);
         displaySearchRes(data);
     }
 }
 
-async function displaySearchRes(data) {
+function displaySearchRes(data) {
     const resultsNumber = document.querySelector(".results-number");
 
     const searchResultsGrid = document.getElementById("search-results-grid");
@@ -289,15 +288,19 @@ async function displaySearchRes(data) {
         searchFakeBody.style = "display:none";
         searchResultsGrid.appendChild(link);
     }
-    await displayPagination();
+    displayPagination();
+}
+async function displayPages() {
+    global.search.page++;
+    const data = await fetchData(
+        `${API_URL}${global.search.type}?q=${global.search.text}&page=${global.search.page}`
+    );
+    console.log(data);
+    displaySearchRes(data);
 }
 
-async function displayPagination() {
-    document.getElementById("next").addEventListener("click", async () => {
-        global.search.page++;
-        console.log("s");
-        await search();
-    });
+function displayPagination() {
+    document.getElementById("next").addEventListener("click", displayPages);
 }
 
 function showAlert(message) {
@@ -493,7 +496,6 @@ function init() {
             displayRecommended("manga");
             break;
         case "/search.html":
-            console.log("lol");
             search();
             break;
     }
