@@ -252,12 +252,16 @@ async function search() {
             img.src = `${el.images.jpg.large_image_url}`;
             // img.title = `${el.title}`; Hover img property
 
-            const rating = document.createElement("h4");
-            rating.innerHTML = `<i class="fa-solid fa-star"></i> ${el.score}`;
-
             link.appendChild(img);
             link.appendChild(title);
-            link.appendChild(rating);
+
+            if (el.score !== null) {
+                const rating = document.createElement("h4");
+                rating.innerHTML = `<i class="fa-solid fa-star"></i> ${el.score.toFixed(
+                    1
+                )}`;
+                link.appendChild(rating);
+            }
             searchFakeBody.style = "display:none";
             searchContainer.appendChild(link);
         }
