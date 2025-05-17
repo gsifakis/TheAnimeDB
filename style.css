@@ -437,14 +437,14 @@ a {
 .search-container {
     max-width: 1200px;
     width: 100%;
-    margin: 0 auto 2rem;
+    margin: 0 auto;
     padding: 0 20px;
 
     .search-form {
         width: 100%;
         max-width: 600px;
         padding: 1rem;
-        margin: 0 auto;
+        margin: 0 auto 2rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -506,10 +506,51 @@ a {
             }
         }
     }
+
+    .results-number {
+        font-size: 1.4rem;
+        padding: 1rem;
+        margin: 0 auto;
+        text-align: center;
+    }
 }
 
 #search-fake-body {
     height: 50vh;
+}
+
+#search-results {
+    #pagination {
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .page {
+            color: #fff;
+            font-size: 1.1rem;
+            padding: 0.2rem;
+            background: transparent;
+            border: none;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .dots {
+            color: #fff;
+            font-size: 1.1rem;
+            padding: 0.2rem;
+            background: transparent;
+            border: none;
+        }
+
+        .page:hover {
+            cursor: pointer;
+            scale: 1.4;
+            color: var(--primary-highlight-color);
+        }
+    }
 }
 
 /* Footer */
@@ -695,7 +736,7 @@ a {
         text-align: center;
     }
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
     .results-grid {
         padding: 1rem;
         grid-template-columns: repeat(1, 1fr);
@@ -703,17 +744,26 @@ a {
         .card {
             max-width: 300px;
 
-            /* .title {
+            .title {
                 text-align: center;
-            } */
+            }
         }
     }
-}
+} */
 
 @media (max-width: 350px) {
     .nav {
         .logo {
             display: none;
+        }
+    }
+
+    .results-grid {
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+
+        .card {
+            max-width: 300px;
         }
     }
 

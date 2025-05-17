@@ -41,7 +41,7 @@ function filterData(data) {
         }
     );
 
-    return data;
+    return filteredData;
 }
 
 async function fetchData(path) {
@@ -216,10 +216,10 @@ async function displayRecommended(type) {
 }
 
 // Search Functions
+
 async function search() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const searchContainer = document.getElementById("search-results");
 
     global.search.text = urlParams.get("search-text");
     global.search.type = urlParams.get("type");
@@ -227,45 +227,77 @@ async function search() {
     if (global.search.text === "" || global.search.text === null) {
         showAlert("Search cannot be empty");
     } else {
-        const searchFakeBody = document.getElementById("search-fake-body");
-        searchContainer.innerHTML = "";
-        searchFakeBody.style = "display:block";
-
         const data = await fetchData(
-            `${API_URL}${global.search.type}?q=${global.search.text}`
+            `${API_URL}${global.search.type}?q=${global.search.text}&page=${global.search.page}`
         );
-
-        console.log(filterData(data.data));
-
-        for (el of filterData(data.data)) {
-            const link = document.createElement("a");
-            link.classList.add("card");
-            link.href = `${global.search.type}-details.html?id=${el.mal_id}`;
-
-            const title = document.createElement("h3");
-            title.classList.add("title");
-            let titleText = el.title_english || el.title;
-            title.innerHTML = `${titleText}`;
-
-            const img = document.createElement("img");
-            img.classList.add("headshot-img");
-            img.src = `${el.images.jpg.large_image_url}`;
-            // img.title = `${el.title}`; Hover img property
-
-            link.appendChild(img);
-            link.appendChild(title);
-
-            if (el.score !== null) {
-                const rating = document.createElement("h4");
-                rating.innerHTML = `<i class="fa-solid fa-star"></i> ${el.score.toFixed(
-                    1
-                )}`;
-                link.appendChild(rating);
-            }
-            searchFakeBody.style = "display:none";
-            searchContainer.appendChild(link);
-        }
+        console.log(data);
+        displaySearchRes(data);
     }
+}
+
+async function displaySearchRes(data) {
+    const resultsNumber = document.querySelector(".results-number");
+
+    const searchResultsGrid = document.getElementById("search-results-grid");
+    searchResultsGrid.innerHTML = "";
+
+    const searchFakeBody = document.getElementById("search-fake-body");
+    searchFakeBody.style = "display:block";
+
+    // console.log(data);
+
+    // Change CurrentPage
+    console.log(global.search.page);
+    // console.log(data.pagination.current_page);
+
+    // Total Results
+    if (data.pagination.items.count !== 0) {
+        resultsNumber.innerHTML = `${data.pagination.items.total} Results found for ${global.search.text}`;
+    } else {
+        resultsNumber.innerHTML = `No Results Found`;
+    }
+
+    console.log(global.search.page);
+
+    // Search data
+
+    for (el of data.data) {
+        const link = document.createElement("a");
+        link.classList.add("card");
+        link.href = `${global.search.type}-details.html?id=${el.mal_id}`;
+
+        const title = document.createElement("h3");
+        title.classList.add("title");
+        let titleText = el.title_english || el.title;
+        title.innerHTML = `${titleText}`;
+
+        const img = document.createElement("img");
+        img.classList.add("headshot-img");
+        img.src = `${el.images.jpg.large_image_url}`;
+        // img.title = `${el.title}`; Hover img property
+
+        link.appendChild(img);
+        link.appendChild(title);
+
+        if (el.score !== null) {
+            const rating = document.createElement("h4");
+            rating.innerHTML = `<i class="fa-solid fa-star"></i> ${el.score.toFixed(
+                1
+            )}`;
+            link.appendChild(rating);
+        }
+        searchFakeBody.style = "display:none";
+        searchResultsGrid.appendChild(link);
+    }
+    await displayPagination();
+}
+
+async function displayPagination() {
+    document.getElementById("next").addEventListener("click", async () => {
+        global.search.page++;
+        console.log("s");
+        await search();
+    });
 }
 
 function showAlert(message) {
@@ -420,11 +452,13 @@ function displayMenu() {
     const mobileMenuToggle = document.querySelector(".mobile-menu-icon");
     const mobileMenuItems = document.querySelector(".mobile-menu-items");
     const body = document.getElementsByTagName("body")[0];
-    const blur = document.querySelector(".blur");
+    const blurAll = document.querySelectorAll(".blur");
 
     mobileMenuToggle.addEventListener("click", () => {
         mobileMenuItems.classList.toggle("active");
-        blur.classList.toggle("blur-active");
+        blurAll.forEach((i) => {
+            i.classList.toggle("blur-active");
+        });
         body.classList.toggle("overflow-y");
     });
 }
@@ -459,7 +493,9 @@ function init() {
             displayRecommended("manga");
             break;
         case "/search.html":
+            console.log("lol");
             search();
+            break;
     }
 
     highlightActiveLink();
