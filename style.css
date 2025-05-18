@@ -516,25 +516,30 @@ a {
 }
 
 #search-fake-body {
-    height: 50vh;
+    height: 60vh;
 }
 
 #search-results {
     #pagination {
         max-width: 600px;
-        margin: 0 auto;
+        margin: 3rem auto 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.5rem;
 
-        .page {
+        .page-btn {
             color: #fff;
             font-size: 1.1rem;
-            padding: 0.2rem;
+            padding: 0.5rem;
             background: transparent;
             border: none;
+            border-radius: 50%;
             transition: all 0.3s ease-in-out;
+        }
+
+        .page-btn-disabled {
+            color: rgba(0, 0, 0, 0.3);
         }
 
         .dots {
@@ -545,10 +550,22 @@ a {
             border: none;
         }
 
-        .page:hover {
+        .page-btn.page-btn-active {
+            color: var(--primary-highlight-color);
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .page-btn:hover {
             cursor: pointer;
             scale: 1.4;
             color: var(--primary-highlight-color);
+        }
+
+        .page-btn-disabled:hover {
+            cursor: default;
+            scale: 1;
+            caret-color: #ccc;
+            color: rgba(0, 0, 0, 0.3);
         }
     }
 }
