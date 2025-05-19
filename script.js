@@ -232,7 +232,7 @@ async function search() {
         showAlert("Search cannot be empty");
     } else {
         const data = await fetchData(
-            `${API_URL}${global.search.type}?q=${global.search.text}&page=${global.search.page}`
+            `${API_URL}${global.search.type}?q=${global.search.text}&page=${global.search.page}&sfw`
         );
         displaySearchRes(data);
     }
