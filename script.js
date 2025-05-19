@@ -80,12 +80,16 @@ async function fetchData(path) {
 async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
-
+    console.log(data);
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
     const image = document.createElement("img");
     image.classList.add("left-image");
-    image.src = data.images.jpg.large_image_url;
+    if (data.images.jpg.large_image_url !== null) {
+        image.src = data.images.jpg.large_image_url;
+    } else {
+        image.src = "../images/no-image.png";
+    }
 
     // Making the yt and myanimelist btns
     const btnsContainer = document.createElement("div");
@@ -100,7 +104,7 @@ async function displayDetails(type) {
     malBtn.appendChild(malBtnImg);
     btnsContainer.appendChild(malBtn);
 
-    if (type === "anime") {
+    if (type === "anime" && data.trailer.url !== null) {
         const ytBtn = document.createElement("a");
         ytBtn.target = "_blank";
         ytBtn.href = data.trailer.url;
@@ -277,8 +281,13 @@ function displaySearchRes(data) {
 
         const img = document.createElement("img");
         img.classList.add("headshot-img");
-        img.src = `${el.images.jpg.large_image_url}`;
+
         // img.title = `${el.title}`; Hover img property
+        if (el.images.jpg.large_image_url !== null) {
+            img.src = el.images.jpg.large_image_url;
+        } else {
+            img.src = "../images/no-image.png";
+        }
 
         link.appendChild(img);
         link.appendChild(title);
@@ -524,7 +533,11 @@ async function displaySwiperDetailsRecommended(type, path) {
         swiperLink.href = `${type}-details.html?id=${data[i].entry.mal_id}`;
 
         const swiperImg = document.createElement("img");
-        swiperImg.src = `${data[i].entry.images.jpg.large_image_url}`;
+        if (data[i].entry.images.jpg.large_image_url !== null) {
+            swiperImg.src = `${data[i].entry.images.jpg.large_image_url}`;
+        } else {
+            swiperImg.src = "../images/no-image.png";
+        }
         // swiperImg.title = `${element.title}`;
 
         const title = document.createElement("h3");
