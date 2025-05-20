@@ -16,7 +16,7 @@ body {
     overflow-x: hidden;
     line-height: 1.2;
     color: #fff;
-    background: linear-gradient(to right, #822471, #783675);
+    background: linear-gradient(to right, #222222, #141414);
 
     position: relative;
     /* z-index: 10; */
@@ -134,7 +134,7 @@ a {
             left: 0;
             width: 100%;
             height: calc(100vh- 108.16);
-            background: linear-gradient(to right, #822471, #783675);
+            background: linear-gradient(to right, #222222, #141414);
             text-align: center;
             padding: 1rem;
             transform: translateY(-150%);
