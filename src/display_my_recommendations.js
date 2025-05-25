@@ -1,8 +1,25 @@
 import { localRecPath } from "./constants.js";
-import { fetchData } from "./utils.js";
+import { fetchData, capitalizeFirstLetter } from "./utils.js";
 
 async function displayRecommended(type) {
-    const myType = document.getElementById(`my-${type}`);
+    const hero = document.querySelector(".hero");
+    const heroLoading = document.querySelector(".hero-loading");
+
+    const parentDiv = document.querySelector(".my-recommendations");
+
+    console.log(parentDiv);
+    const box = document.createElement("div");
+    box.classList.add(`${type}-recommendations`);
+
+    // create h2 for recommendation type
+    const boxTitle = document.createElement("h2");
+    boxTitle.innerHTML = `My ${capitalizeFirstLetter(type)} Recommendations`;
+
+    box.appendChild(boxTitle);
+
+    const myType = document.createElement("div");
+    myType.id = `my-${type}`;
+    myType.classList.add("results-grid");
 
     const { data } = await fetchData(
         `${localRecPath}${type}-recommendations.json`
@@ -33,6 +50,11 @@ async function displayRecommended(type) {
         link.appendChild(rating);
         myType.appendChild(link);
     });
+
+    box.appendChild(myType);
+    parentDiv.appendChild(box);
+    hero.classList.add("visible");
+    heroLoading.classList.add("hidden");
 }
 
 export default displayRecommended;

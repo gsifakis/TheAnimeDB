@@ -385,7 +385,7 @@ a {
 }
 
 .hero-loading {
-    height: 100vh;
+    height: 75vh;
 }
 
 .hero-loading.hidden {

@@ -11,6 +11,7 @@
             referrerpolicy="no-referrer"
         />
         <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="loader.css" />
         <script type="module" src="script.js" defer></script>
         <title>My Recommendations</title>
     </head>
@@ -64,15 +65,21 @@
             </div>
         </nav>
 
-        <div class="my-recommendations container blur">
-            <div class="anime-recommendations">
+        <div class="hero-loading">
+            <div class="loader-box">
+                <div class="loader"></div>
+            </div>
+        </div>
+
+        <div class="hero my-recommendations container blur">
+            <!-- <div class="anime-recommendations">
                 <h2>My Anime Recommendations</h2>
                 <div id="my-anime" class="results-grid"></div>
             </div>
             <div class="manga-recommendations">
                 <h2>My Manga Recommendations</h2>
                 <div id="my-manga" class="results-grid"></div>
-            </div>
+            </div> -->
         </div>
 
         <footer>

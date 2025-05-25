@@ -68,6 +68,10 @@ function displayMobileMenu() {
     });
 }
 
+function capitalizeFirstLetter(string) {
+    return string[0].toUpperCase() + string.slice(1);
+}
+
 export {
     fetchData,
     delay,
@@ -75,4 +79,5 @@ export {
     showAlert,
     highlightActiveLink,
     displayMobileMenu,
+    capitalizeFirstLetter,
 };
