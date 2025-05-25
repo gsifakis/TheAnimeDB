@@ -6,6 +6,9 @@ async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
 
+    const hero = document.querySelector(".hero");
+    const heroLoading = document.querySelector(".hero-loading");
+
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
     const image = document.createElement("img");
@@ -102,10 +105,13 @@ async function displayDetails(type) {
 
     swiperURLS.similarAnime = `https://api.jikan.moe/v4/${type}/${id}/recommendations`;
 
-    displaySwiperDetailsRecommended(
+    await displaySwiperDetailsRecommended(
         `${type}`,
         `https://api.jikan.moe/v4/${type}/${id}/recommendations`
     );
+
+    hero.classList.add("visible");
+    heroLoading.classList.add("hidden");
 }
 
 export default displayDetails;
