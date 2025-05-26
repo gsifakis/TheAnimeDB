@@ -72,6 +72,13 @@ function capitalizeFirstLetter(string) {
     return string[0].toUpperCase() + string.slice(1);
 }
 
+function hideLoader() {
+    const hero = document.querySelector(".hero");
+    const heroLoading = document.querySelector(".hero-loading");
+    hero.classList.add("visible");
+    heroLoading.classList.add("hidden");
+}
+
 export {
     fetchData,
     delay,
@@ -80,4 +87,5 @@ export {
     highlightActiveLink,
     displayMobileMenu,
     capitalizeFirstLetter,
+    hideLoader,
 };

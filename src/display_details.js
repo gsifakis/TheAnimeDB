@@ -1,13 +1,10 @@
 import { swiperURLS, API_URL } from "./constants.js";
-import { fetchData } from "./utils.js";
+import { fetchData, hideLoader } from "./utils.js";
 import { displaySwiperDetailsRecommended } from "./swipers.js";
 
 async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
-
-    const hero = document.querySelector(".hero");
-    const heroLoading = document.querySelector(".hero-loading");
 
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
@@ -110,8 +107,7 @@ async function displayDetails(type) {
         `https://api.jikan.moe/v4/${type}/${id}/recommendations`
     );
 
-    hero.classList.add("visible");
-    heroLoading.classList.add("hidden");
+    hideLoader();
 }
 
 export default displayDetails;

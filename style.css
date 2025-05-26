@@ -658,6 +658,10 @@ a {
         }
     }
 
+    .hero-loading {
+        height: 68vh;
+    }
+
     .results-grid {
         padding: 2rem;
         grid-template-columns: repeat(3, 1fr);
@@ -728,6 +732,15 @@ a {
             }
         }
     }
+
+    .swiper-slide img {
+        border-radius: 20px;
+    }
+
+    .swiper-title {
+        display: none;
+    }
+
     .details {
         .details-top {
             flex-direction: column-reverse;

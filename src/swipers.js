@@ -1,31 +1,28 @@
 import { swiperURLS } from "./constants.js";
-import { fetchData, delay, filterData } from "./utils.js";
+import { fetchData, delay, filterData, hideLoader } from "./utils.js";
 
 function initSwiper() {
     const swiper = new Swiper(".swiper", {
-        slidesPerView: 1,
+        slidesPerView: 2.5,
         spaceBetween: 15,
         freeMode: true,
         loop: false,
         autoplay: false,
         breakpoints: {
-            400: {
-                slidesPerView: 2,
-            },
             558: {
-                slidesPerView: 3,
+                slidesPerView: 3.5,
             },
             700: {
-                slidesPerView: 4,
+                slidesPerView: 4.5,
             },
             968: {
-                slidesPerView: 5,
+                slidesPerView: 5.5,
             },
             1200: {
-                slidesPerView: 6,
+                slidesPerView: 6.5,
             },
             1400: {
-                slidesPerView: 7,
+                slidesPerView: 7.5,
             },
         },
     });
@@ -88,9 +85,6 @@ async function displaySwiper(type, path) {
 }
 
 async function displayAllSwipers(type) {
-    const hero = document.querySelector(".hero");
-    const heroLoading = document.querySelector(".hero-loading");
-
     if (type === "anime") {
         await delay(1500);
         displaySwiper("anime", swiperURLS.topPopularAnime);
@@ -105,8 +99,7 @@ async function displayAllSwipers(type) {
         displaySwiper("manga", swiperURLS.topPopularManhua);
     }
 
-    hero.classList.add("visible");
-    heroLoading.classList.add("hidden");
+    hideLoader();
 }
 
 async function displaySwiperDetailsRecommended(type, path) {

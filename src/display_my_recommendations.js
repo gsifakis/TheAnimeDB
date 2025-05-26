@@ -1,10 +1,7 @@
 import { localRecPath } from "./constants.js";
-import { fetchData, capitalizeFirstLetter } from "./utils.js";
+import { fetchData, capitalizeFirstLetter, hideLoader } from "./utils.js";
 
 async function displayRecommended(type) {
-    const hero = document.querySelector(".hero");
-    const heroLoading = document.querySelector(".hero-loading");
-
     const parentDiv = document.querySelector(".my-recommendations");
 
     console.log(parentDiv);
@@ -53,8 +50,7 @@ async function displayRecommended(type) {
 
     box.appendChild(myType);
     parentDiv.appendChild(box);
-    hero.classList.add("visible");
-    heroLoading.classList.add("hidden");
+    hideLoader();
 }
 
 export default displayRecommended;
