@@ -5,7 +5,7 @@ import { displaySwiperDetailsRecommended } from "./swipers.js";
 async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
-    console.log(data);
+
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
     const image = document.createElement("img");

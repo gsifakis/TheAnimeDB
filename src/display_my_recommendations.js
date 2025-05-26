@@ -4,7 +4,6 @@ import { fetchData, capitalizeFirstLetter, hideLoader } from "./utils.js";
 async function displayRecommended(type) {
     const parentDiv = document.querySelector(".my-recommendations");
 
-    console.log(parentDiv);
     const box = document.createElement("div");
     box.classList.add(`${type}-recommendations`);
 
