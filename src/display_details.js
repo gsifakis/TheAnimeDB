@@ -5,7 +5,7 @@ import { displaySwiperDetailsRecommended } from "./swipers.js";
 async function displayDetails(type) {
     const id = window.location.search.split("=")[1];
     const { data } = await fetchData(`${API_URL}${type}/${id}`);
-
+    console.log(data);
     // getting the image
     const detailsLeft = document.querySelector(".details-left");
     const image = document.createElement("img");
@@ -100,13 +100,17 @@ async function displayDetails(type) {
     detailsRight.appendChild(genresList);
     detailsRight.appendChild(detailsParagraph);
 
-    swiperURLS.similarAnime = `https://api.jikan.moe/v4/${type}/${id}/recommendations`;
+    if (data.status !== "Not yet aired") {
+        swiperURLS.similarAnime = `https://api.jikan.moe/v4/${type}/${id}/recommendations`;
 
-    await displaySwiperDetailsRecommended(
-        `${type}`,
-        `https://api.jikan.moe/v4/${type}/${id}/recommendations`
-    );
-
+        await displaySwiperDetailsRecommended(
+            `${type}`,
+            `https://api.jikan.moe/v4/${type}/${id}/recommendations`
+        );
+    } else {
+        const similarTitle = document.querySelector(".similar-title");
+        similarTitle.remove();
+    }
     hideLoader();
 }
 
