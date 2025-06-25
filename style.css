@@ -50,7 +50,7 @@ a {
 }
 
 .active-color {
-    color: rgb(0, 224, 255);
+    color: var(--primary-highlight-color);
 }
 
 .active {
@@ -92,6 +92,7 @@ a {
     }
 
     .menu {
+        transition: all 0.3s;
         .menu-list {
             display: flex;
             align-items: center;
@@ -102,6 +103,7 @@ a {
             li {
                 border-radius: 25px;
                 padding: 1rem;
+                cursor: pointer;
             }
 
             li:hover {
@@ -596,7 +598,7 @@ a {
         align-items: center;
         gap: 0.4rem;
         a {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             text-decoration: underline;
         }
 
