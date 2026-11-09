@@ -11,21 +11,21 @@ const global = {
 // Urls
 const swiperURLS = {
     topPopularAnime:
-        "https://api.jikan.moe/v4/top/anime?type=tv&filter=bypopularity",
+        "https://api.tenrai.org/v4/top/anime?type=tv&filter=bypopularity",
     topPopularAnimeMovies:
-        "https://api.jikan.moe/v4/top/anime?type=movie&filter=bypopularity",
-    topAiringAnime: "https://api.jikan.moe/v4/top/anime?type=tv&filter=airing",
+        "https://api.tenrai.org/v4/top/anime?type=movie&filter=bypopularity",
+    topAiringAnime: "https://api.tenrai.org/v4/top/anime?type=tv&filter=airing",
     topUpcomingAnime:
-        "https://api.jikan.moe/v4/top/anime?type=tv&filter=upcoming",
+        "https://api.tenrai.org/v4/top/anime?type=tv&filter=upcoming",
     topPopularManga:
-        "https://api.jikan.moe/v4/top/manga?type=manga&filter=bypopularity",
+        "https://api.tenrai.org/v4/top/manga?type=manga&filter=bypopularity",
     topPopularManhwa:
-        "https://api.jikan.moe/v4/top/manga?type=manhwa&filter=bypopularity",
+        "https://api.tenrai.org/v4/top/manga?type=manhwa&filter=bypopularity",
     topPopularManhua:
-        "https://api.jikan.moe/v4/top/manga?type=manhua&filter=bypopularity",
+        "https://api.tenrai.org/v4/top/manga?type=manhua&filter=bypopularity",
 };
 
 const localRecPath = "../recommendations/";
-const API_URL = "https://api.jikan.moe/v4/";
+const API_URL = "https://api.tenrai.org/v4/";
 
 export { global, swiperURLS, localRecPath, API_URL };
